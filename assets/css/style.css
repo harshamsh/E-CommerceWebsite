@@ -1,0 +1,14 @@
+body{
+    /* background: url(assets/images/Path1.svg); */
+    background-image: url("assets/images/Path1.png");
+    
+
+}
+.navbar-nav{
+    margin-right: 100px;
+    font-size: 2em;
+   
+}
+.navbar-nav .nav-link{
+    color: white;
+}
