@@ -160,23 +160,18 @@ button {
 
 
 .ChefImage{
-    position: fixed; bottom: 0px; right: 0px;
+    position: fixed; bottom: -20px; right: 0px;
 }
 .bg-image-abt{
     background: url("../images/bg-abt-2.png");
-    
-    
+      
     background-repeat: no-repeat;
+    position: fixed;
   
     
 }
 .content-abt{
     width: 50%;
     margin: 50px;
-    font-size: 30px;
-}
-.bg-shape1{
-    position: absolute; bottom: -20px; right: 0px;
-    
-    
+    font-size: 28px;
 }
