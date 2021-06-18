@@ -15,7 +15,9 @@ body{
     width: 50px;
     height: 50px;
 } */
-
+.order-btn:hover{
+    box-shadow:3px 3px 15px rgb(170, 158, 141);
+}
 
 .navbar-nav{
     
@@ -99,4 +101,82 @@ button {
 }
 .design{
     position: absolute;
+}
+
+
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+.back-btn{
+    margin: 20px;
+    position: relative;
+    justify-self:start;
+    width: 50px;
+    height: 50px;
+    background:#DE7230;
+    border-radius: 50%;
+    
+}
+.back-btn:hover{
+    margin: 20px;
+    position: relative;
+    justify-self:start;
+    width: 50px;
+    height: 50px;
+    box-shadow:3px 3px 15px rgb(170, 158, 141);
+    border-radius: 50%;
+}
+.HeadLine{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.HeadLine h1{
+    font-size: 80px;
+}
+.back-btn-in{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%)
+}
+.back-btn-in{
+    width: 0;
+     height: 0;
+     border-top: 12px solid transparent;
+     border-right: 25px solid #864D27;
+     border-bottom: 12px solid transparent;
+     
+    
+}
+
+
+.ChefImage{
+    position: fixed; bottom: 0px; right: 0px;
+}
+.bg-image-abt{
+    background: url("../images/bg-abt-2.png");
+    
+    
+    background-repeat: no-repeat;
+  
+    
+}
+.content-abt{
+    width: 50%;
+    margin: 50px;
+    font-size: 30px;
+}
+.bg-shape1{
+    position: absolute; bottom: -20px; right: 0px;
+    
+    
 }
