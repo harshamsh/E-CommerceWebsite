@@ -6,9 +6,10 @@ body{
    
 }
 .bg-image{
-    background: url("../images/bg1.png");
     
-    background-repeat: no-repeat;
+    background: url('../images/bg1.png') no-repeat center center fixed;
+    background-size: cover
+
    
 }
 /* .navbar .navbar-expand-lg .navbar-brand{      
@@ -136,8 +137,6 @@ button {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
 .HeadLine h1{
@@ -155,17 +154,14 @@ button {
      border-top: 12px solid transparent;
      border-right: 25px solid #864D27;
      border-bottom: 12px solid transparent;
-     
-    
 }
 
 
 .ChefImage{
-    position: fixed; bottom: -20px; right: 0px;
+    position: fixed; bottom: 0px; right: 0px;
 }
 .bg-image-abt{
     background: url("../images/bg-abt-2.png");
-      
     background-repeat: no-repeat;
     position: fixed;
   
@@ -176,3 +172,5 @@ button {
     margin: 50px;
     font-size: 28px;
 }
+
+
