@@ -27,3 +27,15 @@ function changeOrder(food, changeType){
     food.querySelector('.order-val').textContent = foodQuan;
     food.querySelector('.food-total').textContent = `$ ${(foodQuan * foodPrice).toFixed(2)}`;
 }
+
+function getOrder() {
+    var getItem1=0;
+    getItem1 = document.getElementById("item1").value.parseInt;
+    console.log("Cheese burgers="+getItem1);
+    
+}
+function toCheckOut() {
+    document.getElementById("checkOut");
+    location.href="billing.html";
+    getOrder();
+}

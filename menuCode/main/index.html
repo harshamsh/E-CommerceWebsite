@@ -19,7 +19,12 @@
     
     </head>
     <body>
-        <div class="check-out"><a href="billing.html"><button>C<br>h<br>e<br>c<br>k <br><br>O<br>u<br>t</button></a></div>
+        <div class="check-out">
+            
+                <button onclick="toCheckOut()" id="checkOut">
+                    C<br>h<br>e<br>c<br>k<br><br>O<br>u<br>t
+                </button>
+        </div>
         
         <div class = "food-wrapper center">
             <h1>Order Here</h1>
@@ -51,9 +56,9 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item1">0</div>
                                 <div class = "order-inc center">
-                                    <i class = "fas fa-plus"></i>
+                                    <i class = "fas fa-plus" onclick="getOrder()"></i>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +93,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item2">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -125,7 +130,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item3">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -162,7 +167,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item4">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -199,7 +204,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item5">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -236,7 +241,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item6">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -273,7 +278,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item7">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -310,7 +315,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item8">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
@@ -347,7 +352,7 @@
                                 <div class = "order-dec center">
                                     <i class = "fas fa-minus"></i>
                                 </div>
-                                <div class = "order-val center">0</div>
+                                <div class = "order-val center" id="item9">0</div>
                                 <div class = "order-inc center">
                                     <i class = "fas fa-plus"></i>
                                 </div>
